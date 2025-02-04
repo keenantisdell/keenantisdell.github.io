@@ -54,14 +54,18 @@ ul.faq li {
 	line-height: 1.6;
 	font-size: 18px;
 }
-.Experiences h3{
+.main h3{
 	padding-top:200px;
 	text-align: center;
 }
-.Experiences ul {
+.main h2{
+	padding-top:200px;
+	text-align: center;
+}
+.main ul {
 	padding: 100px;
 }
-.Experiences ul li {
+.main ul li {
 	margin:  auto;
 	padding: 15px;
 	max-width: 800px;
