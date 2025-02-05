@@ -1,10 +1,14 @@
 *{
 	padding: 0;
 	margin: 0;
+	font-family: "Roboto", serif;
+	font-style: normal;
+	font-optical-sizing: auto;
 }
 ul.navbar{
 	list-style: none;
-	float: right;
+	position: fixed;
+	background: white;
 }
 ul.navbar li{
 	display: inline-block;
@@ -27,15 +31,18 @@ ul.navbar li ul.dropdown{
 	z-index: 999;
 	display: none;
 	background: #fff1e7;
+	border-radius: 50px;
 }
 ul.navbar li:hover ul.dropdown{
 	display: block;
 }
 ul.navbar li a:hover{
 	background: #dbd0c8;
+	border-radius: 50px;
 }
 ul.navbar li a.active{
 	background: #fff1e7;
+	border-radius: 50px;
 }
 ul.faq {
 	padding: 100px;
@@ -54,11 +61,24 @@ ul.faq li {
 	line-height: 1.6;
 	font-size: 18px;
 }
+.main {
+	max-width: 800px;
+	margin: auto;
+}
 .main h3{
 	padding-top:200px;
 	text-align: center;
 }
+.main p{
+	padding-top:50px;
+	text-align: center;
+}
 .main h2{
+	padding-top:200px;
+	text-align: center;
+}
+
+.main h1{
 	padding-top:200px;
 	text-align: center;
 }
