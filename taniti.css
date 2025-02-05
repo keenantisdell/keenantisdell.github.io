@@ -4,7 +4,10 @@
 	font-family: "Roboto", serif;
 	font-style: normal;
 	background:#F8F8FF;
+	max-width: 800px;
+	margin:auto;
 }
+
 ul.navbar{
 	list-style: none;
 	position: fixed;
@@ -55,15 +58,11 @@ h2 {
 
 }
 ul.faq li {
-	margin:  auto;
 	padding: 15px;
-	max-width: 800px;
 	line-height: 1.6;
 	font-size: 18px;
 }
 .main {
-	max-width: 800px;
-	margin: auto;
 	padding-top: 100px;
 }
 .main h3{
